@@ -2,9 +2,6 @@
 <doc>
 <assembly><name>Fake.Gallio</name></assembly>
 <members>
-<member name="">
-
-</member>
 <member name="P:Fake.Gallio.GallioParams.Filters">
 <summary>
  Test filters (i.e. exclusion rules)
@@ -77,19 +74,10 @@
  and IsolatedProcess (default), but more types could be available as plugins.
 </summary>
 </member>
-<member name="">
-
-</member>
 <member name="P:Fake.Gallio.GallioParams.TestRunnerOptions">
 <summary>
  Specifies option property key/value pairs for the test runner.
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="P:Fake.Gallio.GallioParams.ReportFormatterOptions">
 <summary>
@@ -123,33 +111,6 @@
  Sets whether to load the tests but not run them.
 </summary>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:Fake.Gallio.Run(Microsoft.FSharp.Core.FSharpFunc{Fake.Gallio.GallioParams,Fake.Gallio.GallioParams},System.Collections.Generic.IEnumerable{System.String})">
  <summary>
  Runs tests through Gallio.
@@ -157,37 +118,10 @@
  <param name="setParam">Function that modifies the default parameters</param>
  <param name="assemblies">List of test assemblies</param>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="P:Fake.Gallio.GallioDefaults">
 <summary>
  Default Gallio parameters
 </summary>
-</member>
-<member name="T:Fake.Gallio">
-
 </member>
 </members>
 </doc>
