@@ -90,7 +90,6 @@ let update config _ =
     ++ "./**/AssemblyInfo.vb"
     ++ "./**/AssemblyInfo.fs"
     ++ "./**/AssemblyInfo.vb"
-        |> Scan
         |> Seq.iter (updateAssemblyInfo config branchName)
 
 let updateDeploy config _ =
