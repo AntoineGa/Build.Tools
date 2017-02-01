@@ -19,7 +19,7 @@ let config =
     Map.ofList [
         "build:configuration",          environVarOrDefault "configuration"         "Release"
         "build:solution",               environVar          "solution"
-        "core:tools",                   environVar          "tools"
+        "core:tools",                   environVarOrDefault "tools"                 "tools"
         "grunt:environment",            environVarOrDefault "gruntenvironment"      "dev"
         "grunt:verbose",                environVarOrDefault "gruntverbose"          "false"
         "packaging:output",             environVarOrDefault "output"                (sprintf "%s\output" (Path.GetFullPath(".")))
